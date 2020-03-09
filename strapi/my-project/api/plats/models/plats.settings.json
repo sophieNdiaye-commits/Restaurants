@@ -1,0 +1,30 @@
+{
+  "connection": "default",
+  "collectionName": "plats",
+  "info": {
+    "name": "plats"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "image": {
+      "collection": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "prix": {
+      "type": "string"
+    }
+  }
+}

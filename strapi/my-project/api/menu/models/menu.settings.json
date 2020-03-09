@@ -1,0 +1,16 @@
+{
+  "info": {
+    "name": "Menu"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  },
+  "connection": "default",
+  "collectionName": "menus"
+}

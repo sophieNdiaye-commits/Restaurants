@@ -1,0 +1,21 @@
+{
+  "connection": "default",
+  "collectionName": "restaurant_s",
+  "info": {
+    "name": "Restaurant "
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name1": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "Description": {
+      "type": "richtext"
+    }
+  }
+}
